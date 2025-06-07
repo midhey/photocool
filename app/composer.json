@@ -1,0 +1,17 @@
+{
+    "name": "dp/photocool",
+    "autoload": {
+        "psr-4": {
+            "Dp\\Photocool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexey Semenov",
+            "email": "midhey@yandex.ru"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
