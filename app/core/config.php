@@ -10,6 +10,8 @@ define('DB_NAME', $_ENV['DB_NAME'] ?? 'booking');
 define('DB_USER', $_ENV['DB_USER'] ?? 'root');
 define('DB_PASS', $_ENV['DB_PASS'] ?? '');
 
+define('BASE_PATH', dirname(__DIR__));
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
